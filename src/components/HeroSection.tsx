@@ -19,9 +19,11 @@ const HeroSection = () => {
           skills, join us to unlock your true potential.
         </p>
         <div className="mt-4">
-          <Button className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800" >
-          <Link href="/courses">Explore Courses</Link>
-          </Button>
+          <Link href="/courses">
+            <Button className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800" >
+              Explore Courses
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
